@@ -1,0 +1,16 @@
+me.mcblueparrot.spade.api
+me.mcblueparrot.spade.api.block
+me.mcblueparrot.spade.api.command
+me.mcblueparrot.spade.api.command.permission
+me.mcblueparrot.spade.api.config
+me.mcblueparrot.spade.api.config.system
+me.mcblueparrot.spade.api.entity
+me.mcblueparrot.spade.api.id
+me.mcblueparrot.spade.api.item
+me.mcblueparrot.spade.api.plugin
+me.mcblueparrot.spade.api.plugin.loader
+me.mcblueparrot.spade.api.recipe
+me.mcblueparrot.spade.api.recipe.builder
+me.mcblueparrot.spade.api.server
+me.mcblueparrot.spade.api.world
+me.mcblueparrot.spade.api.world.area
