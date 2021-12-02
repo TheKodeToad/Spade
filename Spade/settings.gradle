@@ -1,0 +1,13 @@
+pluginManagement {
+	
+	repositories {
+		maven {
+			url = "https://maven.fabricmc.net/";
+		}
+		gradlePluginPortal();
+	}
+	
+}
+
+include ":api";
+include ":remapper";

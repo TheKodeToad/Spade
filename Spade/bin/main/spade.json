@@ -1,0 +1,15 @@
+{
+	"version": "${minecraftVersion}",
+	"mods": {
+		"lithium": {
+			"name": "Lithium",
+			"version": "1.16.x-0.4.5",
+			"download": "https://jitpack.io/com/github/jellysquid3/lithium-fabric/1.16.x-0.4.5/lithium-fabric-1.16.x-0.4.5.jar"
+		},
+		"phosphor": {
+			"name": "Phosphor",
+			"version": "mc1.16.1-v0.6.0",
+			"download": "https://jitpack.io/com/github/jellysquid3/phosphor-fabric/mc1.16.1-v0.6.0/phosphor-fabric-mc1.16.1-v0.6.0.jar"
+		}
+	}
+}

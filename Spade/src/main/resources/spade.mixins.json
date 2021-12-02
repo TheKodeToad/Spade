@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.mcblueparrot.spade.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MinecraftServerMixin",
+		"CommandManagerMixin",
+		"ServerPropertiesHandlerMixin",
+		"BootstrapMixin",
+		"PlayerManagerMixin",
+		"ServerWorldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

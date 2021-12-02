@@ -1,0 +1,15 @@
+dependencies {
+	// Minecraft dependencies
+	compileOnly "com.google.code.gson:gson:2.8.0";
+	compileOnly "org.apache.commons:commons-lang3:3.5";
+	compileOnly "org.apache.commons:commons-compress:1.8.1";
+	compileOnly "com.google.guava:guava:21.0";
+	compileOnly "commons-io:commons-io:2.5";
+	compileOnly "commons-codec:commons-codec:1.10";
+	compileOnly "org.apache.logging.log4j:log4j-api:2.8.1";
+	compileOnly "org.apache.logging.log4j:log4j-core:2.8.1";
+	compileOnly "com.mojang:brigadier:1.0.17";
+	// Custom dependencies
+	compileOnly "net.md-5:bungeecord-chat:1.16-R0.3";
+	compileOnly "org.yaml:snakeyaml:1.26";
+}

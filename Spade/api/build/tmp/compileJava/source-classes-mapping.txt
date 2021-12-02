@@ -1,0 +1,304 @@
+me/mcblueparrot/spade/config/old/ConfigurationListNode.java
+ me.mcblueparrot.spade.config.old.ConfigurationListNode
+me/mcblueparrot/spade/config/old/JsonConfigurationNode.java
+ me.mcblueparrot.spade.config.old.JsonConfigurationNode
+me/mcblueparrot/spade/entity/Entity.java
+ me.mcblueparrot.spade.entity.Entity
+me/mcblueparrot/spade/entity/PotionEntity.java
+ me.mcblueparrot.spade.entity.PotionEntity
+me/mcblueparrot/spade/entity/MooshroomEntity.java
+ me.mcblueparrot.spade.entity.MooshroomEntity
+me/mcblueparrot/spade/entity/SpiderEntity.java
+ me.mcblueparrot.spade.entity.SpiderEntity
+me/mcblueparrot/spade/ScriptPlugin.java
+ me.mcblueparrot.spade.ScriptPlugin
+me/mcblueparrot/spade/entity/TntEntity.java
+ me.mcblueparrot.spade.entity.TntEntity
+me/mcblueparrot/spade/entity/VehicleEntity.java
+ me.mcblueparrot.spade.entity.VehicleEntity
+me/mcblueparrot/spade/entity/BreedableAnimalEntity.java
+ me.mcblueparrot.spade.entity.BreedableAnimalEntity
+me/mcblueparrot/spade/entity/EntityType.java
+ me.mcblueparrot.spade.entity.EntityType
+me/mcblueparrot/spade/ServerVersion.java
+ me.mcblueparrot.spade.ServerVersion
+me/mcblueparrot/spade/entity/DrownedEntity.java
+ me.mcblueparrot.spade.entity.DrownedEntity
+me/mcblueparrot/spade/entity/HopperMinecartEntity.java
+ me.mcblueparrot.spade.entity.HopperMinecartEntity
+me/mcblueparrot/spade/entity/FurnaceMinecartEntity.java
+ me.mcblueparrot.spade.entity.FurnaceMinecartEntity
+me/mcblueparrot/spade/entity/SpectralArrowEntity.java
+ me.mcblueparrot.spade.entity.SpectralArrowEntity
+me/mcblueparrot/spade/entity/CowEntity.java
+ me.mcblueparrot.spade.entity.CowEntity
+me/mcblueparrot/spade/event/player/PlayerJoinEvent.java
+ me.mcblueparrot.spade.event.player.PlayerJoinEvent
+me/mcblueparrot/spade/entity/HorseEntity.java
+ me.mcblueparrot.spade.entity.HorseEntity
+me/mcblueparrot/spade/entity/ElderGuardianEntity.java
+ me.mcblueparrot.spade.entity.ElderGuardianEntity
+me/mcblueparrot/spade/entity/FallingBlockEntity.java
+ me.mcblueparrot.spade.entity.FallingBlockEntity
+me/mcblueparrot/spade/CommandSender.java
+ me.mcblueparrot.spade.CommandSender
+me/mcblueparrot/spade/event/Event.java
+ me.mcblueparrot.spade.event.Event
+me/mcblueparrot/spade/entity/BossEntity.java
+ me.mcblueparrot.spade.entity.BossEntity
+me/mcblueparrot/spade/entity/LeashKnotEntity.java
+ me.mcblueparrot.spade.entity.LeashKnotEntity
+me/mcblueparrot/spade/entity/LightningBoltEntity.java
+ me.mcblueparrot.spade.entity.LightningBoltEntity
+me/mcblueparrot/spade/event/CancellableEvent.java
+ me.mcblueparrot.spade.event.CancellableEvent
+me/mcblueparrot/spade/Spade.java
+ me.mcblueparrot.spade.Spade
+me/mcblueparrot/spade/config/old/JsonConfigurationListNode.java
+ me.mcblueparrot.spade.config.old.JsonConfigurationListNode
+me/mcblueparrot/spade/entity/Player.java
+ me.mcblueparrot.spade.entity.Player
+me/mcblueparrot/spade/entity/FoxEntity.java
+ me.mcblueparrot.spade.entity.FoxEntity
+me/mcblueparrot/spade/entity/EndCrystalEntity.java
+ me.mcblueparrot.spade.entity.EndCrystalEntity
+me/mcblueparrot/spade/entity/WitherSkullEntity.java
+ me.mcblueparrot.spade.entity.WitherSkullEntity
+me/mcblueparrot/spade/command/CommandException.java
+ me.mcblueparrot.spade.command.CommandException
+me/mcblueparrot/spade/World.java
+ me.mcblueparrot.spade.World
+me/mcblueparrot/spade/entity/IronGolemEntity.java
+ me.mcblueparrot.spade.entity.IronGolemEntity
+me/mcblueparrot/spade/entity/TamebleAnimalEntity.java
+ me.mcblueparrot.spade.entity.TamebleAnimalEntity
+me/mcblueparrot/spade/entity/GuardianEntity.java
+ me.mcblueparrot.spade.entity.GuardianEntity
+me/mcblueparrot/spade/entity/MagmaCubeEntity.java
+ me.mcblueparrot.spade.entity.MagmaCubeEntity
+me/mcblueparrot/spade/entity/SilverfishEntity.java
+ me.mcblueparrot.spade.entity.SilverfishEntity
+me/mcblueparrot/spade/entity/VexEntity.java
+ me.mcblueparrot.spade.entity.VexEntity
+me/mcblueparrot/spade/entity/BeeEntity.java
+ me.mcblueparrot.spade.entity.BeeEntity
+me/mcblueparrot/spade/entity/WitherSkeletonEntity.java
+ me.mcblueparrot.spade.entity.WitherSkeletonEntity
+me/mcblueparrot/spade/Server.java
+ me.mcblueparrot.spade.Server
+me/mcblueparrot/spade/entity/ZombieHorseEntity.java
+ me.mcblueparrot.spade.entity.ZombieHorseEntity
+me/mcblueparrot/spade/entity/CreeperEntity.java
+ me.mcblueparrot.spade.entity.CreeperEntity
+me/mcblueparrot/spade/entity/ZombieEntity.java
+ me.mcblueparrot.spade.entity.ZombieEntity
+me/mcblueparrot/spade/entity/RabbitEntity.java
+ me.mcblueparrot.spade.entity.RabbitEntity
+me/mcblueparrot/spade/entity/GiantEntity.java
+ me.mcblueparrot.spade.entity.GiantEntity
+me/mcblueparrot/spade/Plugin.java
+ me.mcblueparrot.spade.Plugin
+me/mcblueparrot/spade/Scheduler.java
+ me.mcblueparrot.spade.Scheduler
+me/mcblueparrot/spade/entity/TurtleEntity.java
+ me.mcblueparrot.spade.entity.TurtleEntity
+me/mcblueparrot/spade/PluginManager.java
+ me.mcblueparrot.spade.PluginManager
+me/mcblueparrot/spade/item/Item.java
+ me.mcblueparrot.spade.item.Item
+me/mcblueparrot/spade/entity/GhastEntity.java
+ me.mcblueparrot.spade.entity.GhastEntity
+me/mcblueparrot/spade/entity/ExperienceOrbEntity.java
+ me.mcblueparrot.spade.entity.ExperienceOrbEntity
+me/mcblueparrot/spade/entity/SquidEntity.java
+ me.mcblueparrot.spade.entity.SquidEntity
+me/mcblueparrot/spade/entity/ZombieVillagerEntity.java
+ me.mcblueparrot.spade.entity.ZombieVillagerEntity
+me/mcblueparrot/spade/entity/StriderEntity.java
+ me.mcblueparrot.spade.entity.StriderEntity
+me/mcblueparrot/spade/entity/DonkeyEntity.java
+ me.mcblueparrot.spade.entity.DonkeyEntity
+me/mcblueparrot/spade/entity/PigEntity.java
+ me.mcblueparrot.spade.entity.PigEntity
+me/mcblueparrot/spade/entity/PillagerEntity.java
+ me.mcblueparrot.spade.entity.PillagerEntity
+me/mcblueparrot/spade/entity/StrayEntity.java
+ me.mcblueparrot.spade.entity.StrayEntity
+me/mcblueparrot/spade/entity/DolphinEntity.java
+ me.mcblueparrot.spade.entity.DolphinEntity
+me/mcblueparrot/spade/entity/LlamaSpitEntity.java
+ me.mcblueparrot.spade.entity.LlamaSpitEntity
+me/mcblueparrot/spade/entity/TraderLlamaEntity.java
+ me.mcblueparrot.spade.entity.TraderLlamaEntity
+me/mcblueparrot/spade/entity/EndermanEntity.java
+ me.mcblueparrot.spade.entity.EndermanEntity
+me/mcblueparrot/spade/entity/SalmonEntity.java
+ me.mcblueparrot.spade.entity.SalmonEntity
+me/mcblueparrot/spade/entity/ShulkerEntity.java
+ me.mcblueparrot.spade.entity.ShulkerEntity
+me/mcblueparrot/spade/entity/ArrowEntity.java
+ me.mcblueparrot.spade.entity.ArrowEntity
+me/mcblueparrot/spade/entity/AnimalEntity.java
+ me.mcblueparrot.spade.entity.AnimalEntity
+me/mcblueparrot/spade/entity/FishingBobberEntity.java
+ me.mcblueparrot.spade.entity.FishingBobberEntity
+me/mcblueparrot/spade/entity/SpawnerMinecartEntity.java
+ me.mcblueparrot.spade.entity.SpawnerMinecartEntity
+me/mcblueparrot/spade/config/old/ConfigurationNode.java
+ me.mcblueparrot.spade.config.old.ConfigurationNode
+me/mcblueparrot/spade/config/old/ConfigurationTreeNode.java
+ me.mcblueparrot.spade.config.old.ConfigurationTreeNode
+me/mcblueparrot/spade/entity/EnderDragonEntity.java
+ me.mcblueparrot.spade.entity.EnderDragonEntity
+me/mcblueparrot/spade/entity/SlimeEntity.java
+ me.mcblueparrot.spade.entity.SlimeEntity
+me/mcblueparrot/spade/block/Block.java
+ me.mcblueparrot.spade.block.Block
+me/mcblueparrot/spade/entity/SkeletonEntity.java
+ me.mcblueparrot.spade.entity.SkeletonEntity
+me/mcblueparrot/spade/entity/MuleEntity.java
+ me.mcblueparrot.spade.entity.MuleEntity
+me/mcblueparrot/spade/entity/HuskEntity.java
+ me.mcblueparrot.spade.entity.HuskEntity
+me/mcblueparrot/spade/entity/CaveSpiderEntity.java
+ me.mcblueparrot.spade.entity.CaveSpiderEntity
+me/mcblueparrot/spade/entity/PufferfishEntity.java
+ me.mcblueparrot.spade.entity.PufferfishEntity
+me/mcblueparrot/spade/entity/PaintingEntity.java
+ me.mcblueparrot.spade.entity.PaintingEntity
+me/mcblueparrot/spade/entity/ZoglinEntity.java
+ me.mcblueparrot.spade.entity.ZoglinEntity
+me/mcblueparrot/spade/entity/RavagerEntity.java
+ me.mcblueparrot.spade.entity.RavagerEntity
+me/mcblueparrot/spade/entity/HoglinEntity.java
+ me.mcblueparrot.spade.entity.HoglinEntity
+me/mcblueparrot/spade/entity/BatEntity.java
+ me.mcblueparrot.spade.entity.BatEntity
+me/mcblueparrot/spade/entity/SheepEntity.java
+ me.mcblueparrot.spade.entity.SheepEntity
+me/mcblueparrot/spade/entity/PiglinEntity.java
+ me.mcblueparrot.spade.entity.PiglinEntity
+me/mcblueparrot/spade/config/Configuration.java
+ me.mcblueparrot.spade.config.Configuration
+me/mcblueparrot/spade/entity/EvokerFangsEntity.java
+ me.mcblueparrot.spade.entity.EvokerFangsEntity
+me/mcblueparrot/spade/entity/ShulkerBulletEntity.java
+ me.mcblueparrot.spade.entity.ShulkerBulletEntity
+me/mcblueparrot/spade/entity/IllusionerEntity.java
+ me.mcblueparrot.spade.entity.IllusionerEntity
+me/mcblueparrot/spade/entity/WolfEntity.java
+ me.mcblueparrot.spade.entity.WolfEntity
+me/mcblueparrot/spade/event/player/PlayerChatEvent.java
+ me.mcblueparrot.spade.event.player.PlayerChatEvent
+me/mcblueparrot/spade/entity/PandaEntity.java
+ me.mcblueparrot.spade.entity.PandaEntity
+me/mcblueparrot/spade/entity/FireballEntity.java
+ me.mcblueparrot.spade.entity.FireballEntity
+me/mcblueparrot/spade/config/old/JsonConfigurationTreeNode.java
+ me.mcblueparrot.spade.config.old.JsonConfigurationTreeNode
+me/mcblueparrot/spade/config/YamlConfigurationSystem.java
+ me.mcblueparrot.spade.config.YamlConfigurationSystem
+me/mcblueparrot/spade/entity/WitherEntity.java
+ me.mcblueparrot.spade.entity.WitherEntity
+me/mcblueparrot/spade/entity/SnowGolemEntity.java
+ me.mcblueparrot.spade.entity.SnowGolemEntity
+me/mcblueparrot/spade/entity/PolarBearEntity.java
+ me.mcblueparrot.spade.entity.PolarBearEntity
+me/mcblueparrot/spade/entity/OcelotEntity.java
+ me.mcblueparrot.spade.entity.OcelotEntity
+me/mcblueparrot/spade/event/player/PlayerQuitEvent.java
+ me.mcblueparrot.spade.event.player.PlayerQuitEvent
+me/mcblueparrot/spade/event/EventListener.java
+ me.mcblueparrot.spade.event.EventListener
+me/mcblueparrot/spade/event/EventPriority.java
+ me.mcblueparrot.spade.event.EventPriority
+me/mcblueparrot/spade/RegisteredListener.java
+ me.mcblueparrot.spade.RegisteredListener
+me/mcblueparrot/spade/entity/ExperienceBottleEntity.java
+ me.mcblueparrot.spade.entity.ExperienceBottleEntity
+me/mcblueparrot/spade/entity/ZombifiedPiglinEntity.java
+ me.mcblueparrot.spade.entity.ZombifiedPiglinEntity
+me/mcblueparrot/spade/entity/CodEntity.java
+ me.mcblueparrot.spade.entity.CodEntity
+me/mcblueparrot/spade/entity/AreaEffectCloudEntity.java
+ me.mcblueparrot.spade.entity.AreaEffectCloudEntity
+me/mcblueparrot/spade/entity/ArmorStandEntity.java
+ me.mcblueparrot.spade.entity.ArmorStandEntity
+me/mcblueparrot/spade/entity/VindicatorEntity.java
+ me.mcblueparrot.spade.entity.VindicatorEntity
+me/mcblueparrot/spade/entity/EvokerEntity.java
+ me.mcblueparrot.spade.entity.EvokerEntity
+me/mcblueparrot/spade/chat/Formatting.java
+ me.mcblueparrot.spade.chat.Formatting
+me/mcblueparrot/spade/entity/FishEntity.java
+ me.mcblueparrot.spade.entity.FishEntity
+me/mcblueparrot/spade/entity/EndermiteEntity.java
+ me.mcblueparrot.spade.entity.EndermiteEntity
+me/mcblueparrot/spade/entity/MinecartEntity.java
+ me.mcblueparrot.spade.entity.MinecartEntity
+me/mcblueparrot/spade/entity/ItemEntity.java
+ me.mcblueparrot.spade.entity.ItemEntity
+me/mcblueparrot/spade/entity/ItemFrameEntity.java
+ me.mcblueparrot.spade.entity.ItemFrameEntity
+me/mcblueparrot/spade/entity/CatEntity.java
+ me.mcblueparrot.spade.entity.CatEntity
+me/mcblueparrot/spade/entity/ChickenEntity.java
+ me.mcblueparrot.spade.entity.ChickenEntity
+me/mcblueparrot/spade/command/Command.java
+ me.mcblueparrot.spade.command.Command
+me/mcblueparrot/spade/entity/WanderingTraderEntity.java
+ me.mcblueparrot.spade.entity.WanderingTraderEntity
+me/mcblueparrot/spade/event/player/PlayerEvent.java
+ me.mcblueparrot.spade.event.player.PlayerEvent
+me/mcblueparrot/spade/entity/TropicalFishEntity.java
+ me.mcblueparrot.spade.entity.TropicalFishEntity
+me/mcblueparrot/spade/entity/EyeOfEnderEntity.java
+ me.mcblueparrot.spade.entity.EyeOfEnderEntity
+me/mcblueparrot/spade/entity/LlamaEntity.java
+ me.mcblueparrot.spade.entity.LlamaEntity
+me/mcblueparrot/spade/entity/CommandBlockMinecartEntity.java
+ me.mcblueparrot.spade.entity.CommandBlockMinecartEntity
+me/mcblueparrot/spade/entity/ParrotEntity.java
+ me.mcblueparrot.spade.entity.ParrotEntity
+me/mcblueparrot/spade/config/ConfigurationSystem.java
+ me.mcblueparrot.spade.config.ConfigurationSystem
+me/mcblueparrot/spade/entity/PhantomEntity.java
+ me.mcblueparrot.spade.entity.PhantomEntity
+me/mcblueparrot/spade/entity/EggEntity.java
+ me.mcblueparrot.spade.entity.EggEntity
+me/mcblueparrot/spade/entity/VillagerEntity.java
+ me.mcblueparrot.spade.entity.VillagerEntity
+me/mcblueparrot/spade/entity/BoatEntity.java
+ me.mcblueparrot.spade.entity.BoatEntity
+me/mcblueparrot/spade/entity/EnderPearlEntity.java
+ me.mcblueparrot.spade.entity.EnderPearlEntity
+me/mcblueparrot/spade/entity/PiglinBruteEntity.java
+ me.mcblueparrot.spade.entity.PiglinBruteEntity
+me/mcblueparrot/spade/entity/FireworkRocketEntity.java
+ me.mcblueparrot.spade.entity.FireworkRocketEntity
+me/mcblueparrot/spade/config/JsonConfigurationSystem.java
+ me.mcblueparrot.spade.config.JsonConfigurationSystem
+me/mcblueparrot/spade/entity/LivingEntity.java
+ me.mcblueparrot.spade.entity.LivingEntity
+me/mcblueparrot/spade/Location.java
+ me.mcblueparrot.spade.Location
+me/mcblueparrot/spade/entity/SmallFireballEntity.java
+ me.mcblueparrot.spade.entity.SmallFireballEntity
+me/mcblueparrot/spade/entity/BlazeEntity.java
+ me.mcblueparrot.spade.entity.BlazeEntity
+me/mcblueparrot/spade/entity/DragonFireballEntity.java
+ me.mcblueparrot.spade.entity.DragonFireballEntity
+me/mcblueparrot/spade/entity/TridentEntity.java
+ me.mcblueparrot.spade.entity.TridentEntity
+me/mcblueparrot/spade/entity/WitchEntity.java
+ me.mcblueparrot.spade.entity.WitchEntity
+me/mcblueparrot/spade/entity/ChestMinecartEntity.java
+ me.mcblueparrot.spade.entity.ChestMinecartEntity
+me/mcblueparrot/spade/entity/SnowballEntity.java
+ me.mcblueparrot.spade.entity.SnowballEntity
+me/mcblueparrot/spade/entity/SkeletonHorseEntity.java
+ me.mcblueparrot.spade.entity.SkeletonHorseEntity
+me/mcblueparrot/spade/entity/ProjectileEntity.java
+ me.mcblueparrot.spade.entity.ProjectileEntity
+me/mcblueparrot/spade/entity/TntMinecartEntity.java
+ me.mcblueparrot.spade.entity.TntMinecartEntity

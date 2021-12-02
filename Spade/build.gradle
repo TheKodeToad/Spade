@@ -1,0 +1,82 @@
+plugins {
+	id "fabric-loom" version "0.4-SNAPSHOT";
+}
+
+allprojects {
+	apply plugin: "java";
+	project.ext.minecraftVersion = "1.16.3";
+	project.ext.yarnVersion = "9";
+	group = "me.mcblueparrot.spade";
+	version = project.minecraftVersion + "-1";
+	
+	repositories {
+		mavenCentral();
+		maven {
+			url = "https://maven.fabricmc.net/";
+		}
+		maven {
+			url = "https://libraries.minecraft.net/";
+		}
+		maven {
+			url = "https://oss.sonatype.org/content/repositories/snapshots";
+		}
+		maven {
+			url = "https://www.jitpack.io/";
+		}
+	}
+	
+	jar {
+		manifest {
+			attributes "Main-Class": "me.mcblueparrot.spade.launcher.SpadeLauncher"
+		}
+		from {
+			configurations.runtimeClasspath.collect {
+				it.isDirectory() ? it : zipTree(it);
+			}
+		}
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE;
+	}
+	
+	processResources {
+		filesMatching("spade.json") {
+			expand(project.properties);
+		}
+	}
+}
+
+configurations {
+	compile {
+		exclude module: "lwjgl";
+		exclude module: "lwjgl-api";
+		exclude module: "lwjgl-core";
+		exclude module: "lwjgl-jemalloc";
+		exclude module: "lwjgl-openal";
+		exclude module: "lwjgl-opengl";
+		exclude module: "lwjgl-glfw";
+		exclude module: "lwjgl-stb";
+		exclude module: "lwjgl-tinyfd";
+		exclude module: "text2speech";
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraftVersion}";
+	mappings "net.fabricmc:yarn:${project.minecraftVersion}+build.${project.yarnVersion}:v2";
+	implementation project("api");
+	implementation project("remapper");
+	// implementation "org.spongepowered.SpongeAPI:spongeapi:8.0.0-SNAPSHOT";
+	implementation "net.fabricmc:sponge-mixin:0.8.1+build.21";
+	implementation "net.minecraft:launchwrapper:1.12";
+	implementation "net.fabricmc:tiny-remapper:0.3.1.72";
+	implementation "com.google.code.gson:gson:2.8.0";
+	implementation "commons-io:commons-io:2.5";
+	implementation "commons-codec:commons-codec:1.10";
+	implementation "org.yaml:snakeyaml:1.26";
+	implementation "net.md-5:bungeecord-chat:1.16-R0.3";
+	compileOnly "com.google.code.findbugs:jsr305:3.0.2";
+	// Scripting support
+	implementation "org.codehaus.groovy:groovy:3.0.5";
+	// Force use of a different log4j version
+	implementation "org.apache.logging.log4j:log4j-api:2.8.1";
+	implementation "org.apache.logging.log4j:log4j-core:2.8.1";
+}
